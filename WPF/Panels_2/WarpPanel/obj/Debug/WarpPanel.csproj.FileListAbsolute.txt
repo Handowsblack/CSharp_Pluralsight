@@ -1,0 +1,14 @@
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\bin\Debug\WarpPanel.exe.config
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\bin\Debug\WarpPanel.exe
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\bin\Debug\WarpPanel.pdb
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel.csprojAssemblyReference.cache
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\MainWindow.g.cs
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\App.g.cs
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel_MarkupCompile.cache
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel_MarkupCompile.lref
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\MainWindow.baml
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel.g.resources
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel.Properties.Resources.resources
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel.csproj.GenerateResource.cache
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel.exe
+C:\Users\alex.junior\Documents\GitHub\C-_Pluralsight\WPF\WarpPanel\obj\Debug\WarpPanel.pdb
