@@ -3,11 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:cal="http://www.caliburnproject.org" 
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
         xmlns:local="clr-namespace:Controls"
         mc:Ignorable="d"
         Title="Tela de Eventos" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -23,35 +26,50 @@
         </Grid.ColumnDefinitions>
         <TextBlock Text="Nome Completo:" 
                    HorizontalAlignment="Right"
-                   VerticalAlignment="Bottom"
+                   VerticalAlignment="Center"
                    Margin="5" />
         <TextBox Grid.Column="1"
                  Width="250"
                  Height="20"
                  HorizontalAlignment="Left"
-                 VerticalAlignment="Bottom" 
+                 VerticalAlignment="Center" 
                  Margin="5"/>
-        <TextBlock HorizontalAlignment="Right" Margin="5" Grid.Row="1" Text="Sexo:" VerticalAlignment="Bottom"/>
+        <TextBlock HorizontalAlignment="Right" Margin="5" Grid.Row="1" Text="Sexo:" VerticalAlignment="Center"/>
         <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
             <RadioButton GroupName="Sexo" Content="Masculino" IsChecked="True" Margin="5" />
             <RadioButton GroupName="Sexo" Content="Feminino" Margin="5" />
         </StackPanel>
-        <TextBlock Text="Você possui:" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5" />
-        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="2" VerticalAlignment="Bottom" HorizontalAlignment="Left" >
+        <TextBlock Text="Você possui:" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5" />
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Left" >
             <CheckBox Content="Desktop" Margin="5" />
             <CheckBox Content="Notebook" Margin="5" />
             <CheckBox Content="Tablet" Margin="5" />
         </StackPanel>
-        <TextBlock Text="Profissão:" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5" />
+        <TextBlock Text="Profissão:" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5" />
         <ComboBox Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Margin="5,0,0,5" Width="179" >
             <ComboBoxItem Content="Programador" />
             <ComboBoxItem Content="Gerente" />
             <ComboBoxItem Content="CTO" />
             <ComboBoxItem Content="CEO" />
             <ComboBoxItem Content="Designer" />
+            <ComboBoxItem Content="R.H." />
+            <ComboBoxItem Content="Serviços Gerais" />
+            <ComboBoxItem Content="Suporte Técnico" />
+            <ComboBoxItem Content="Implantação" />
+            <ComboBoxItem Content="Infraestrutura" />
+            <ComboBoxItem Content="Comercial" />
         </ComboBox>
-        <TextBlock Text="Data da entrega prevista:" Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,150" />
+        <TextBlock Text="Nascimento:" Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,5,150" />
         <Calendar Grid.Row="4" Grid.Column="1" Margin="5" HorizontalAlignment="Left" />
-        <Button Content="Salvar" Grid.Row="5" Margin="5" HorizontalAlignment="Right"  />
+        <Button Content="Salvar" Grid.Row="6" Margin="0,65,86,-55" HorizontalAlignment="Right" Grid.Column="1" Width="50" />
+        <TextBlock Text="Ramal:" Grid.Row="7" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <TextBox Grid.Row="7" Grid.Column="1" Width="250" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,2,0,6"/>
+        <TextBlock Text="Equipe:" Grid.Row="8" Margin="0,13,5,14" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <TextBox Grid.Row="8" Grid.Column="1" Width="250" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,9,0,10"/>
+        <Button Content="Fechar" Grid.Column="1" Grid.Row="6" Margin="0,65,13,-55" HorizontalAlignment="Right" Width="50" />
+        <Button Content="Perfil" Grid.Column="1" Margin="0,4,13,5" HorizontalAlignment="Right" Width="50" />
+        <StackPanel Grid.Column="0" Margin="10,72,94,-78" Grid.Row="6" >
+            <Image Width="120"/>
+        </StackPanel>
     </Grid>
 </Window>
